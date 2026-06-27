@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="profile">
+        <h1>Hello, I'm Raghul </h1>
+
+        <p>
+            This landing page was created as part of my
+            Java Full Stack Web Development Internship.
+            The contact form below is connected to a
+            Spring Boot backend that processes form submissions.
+        </p>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Spring Boot</span>
+        </div>
+    </div>
+
+    <div class="form-card">
+
+        <h2>Contact Form</h2>
+
+        <form action="/contact" method="post">
+
+            <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+            <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+            <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Enter your message"
+                    required></textarea>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
